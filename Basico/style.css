@@ -13,11 +13,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 10%;
+    margin: 10% 15%;
 
 }    
 .show-body__utility-body {
     width:615px ;  
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .texto-destaque {
