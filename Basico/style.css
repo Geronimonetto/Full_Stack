@@ -1,80 +1,60 @@
-*{  
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+* {  
     margin: 0;
     padding: 0;
 }
-body{
+body {
     background: #000000;
+    height: 100vh;
     color: #F6F6F6;}
 
-.main .featured{
-    text-align: center;
-}
-.main .featured .model-text{
-    color: #26F0F1;
-
-}
-
-.texto-destaque{
-    color: #26F0F1;
-    text-align: center;
-}
-
-.title-blog {
-    color: #26F0F1;
-    /* Adicionar mais estilos conforme necessário */
-    text-align: center
-
-}
-
-.image-central{
-    margin: auto;
-    padding: 20px 20px 20px;
+.show-body {
     display: flex;
-    justify-content: center;
-
-}
-button {
-    background-color: #22D4FD;
-    font-weight: bold;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    color: #000000;
-    border: 5px solid #22D4FD;
-    padding: 8px;
-
-
-    /* Adicionar mais estilos conforme necessário */
-}
-img {
-    /* Adicionar estilos para formatar a imagem */
-}
-/* Adicionar mais estilos conforme necessário */
-.button {
-    width: 10%;
-    height: 50px;
-    border: 0;
-    cursor: pointer;
-    background:#4169E1;
-    border-radius: 20px;
-    color: white;
-    display: grid;
     align-items: center;
-    justify-content: center;
-    margin-right: 15px;
-  
-  }
+    justify-content: space-between;
+    margin: 10%;
 
-  .buttons a { 
-    text-decoration: none;    
-  }
-  
-  .buttons {
-    display: flex;  
-    margin: auto;
-    justify-content: center;
-  }
+}    
+.show-body__utility-body {
+    width:615px ;  
+}
 
-  .button:hover{
-      background: #6495ED;
-  }
+.texto-destaque {
+    color: #26F0F1;
+}
+.show-body__title-blog {
+    font-size: 36px;
+    font-family: "Krona One", sans-serif;
+}
+.featured {
+    font-size: 36px;
+    font-family: "Montserrat", sans-serif;;
+    font-weight: 400;
+}
+.show-body__content {
+    font-size: 24px;
+    padding: 10px 0;
+    text-align: left;
+}
+
+.show-body__image {
+    box-sizing: border-box;
+} 
+.show-body__buttons {
+    display: flex;
+    justify-content: space-between;
+}
+.show-body__buttons__button{
+    background-color: #26F0F1;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #000000;
+    font-family: "Montserrat", sans-serif;
+    box-shadow: 5px 10px #F6F6F6;
+}
