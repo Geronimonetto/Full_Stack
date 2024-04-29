@@ -15,12 +15,13 @@ body {
     justify-content: space-between;
     margin: 10% 15%;
 
+
 }    
 .show-body__utility-body {
     width:615px ;  
     display: flex;
     flex-direction: column;
-    
+    gap: 20px;
 }
 
 .texto-destaque {
