@@ -63,6 +63,9 @@ body {
         gap: 32px;
     }
     .show-body__buttons__button{
+        display: flex;
+        justify-content: center;
+        gap: 16px;
         background-color: black;
         width: 320px;
         text-align: center;
@@ -78,4 +81,7 @@ body {
     }
     .show-body__model-text{
         color: #26F0F1;
+    }
+    .show-body__buttons__button__icon{
+        align-items: center;
     }
