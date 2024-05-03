@@ -85,3 +85,7 @@ body {
     .show-body__buttons__button__icon{
         align-items: center;
     }
+    .show-body__buttons__button:hover{
+        background-color: #272727;
+        cursor: pointer;
+    }
